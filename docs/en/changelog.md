@@ -134,3 +134,23 @@
 - Fix ada typo (#283)
 - Add chinese application tutorial (#284)
 - Add chinese document of ddp training (#286)
+
+## v0.7.2 (12/09/2022)
+
+#### Highlights
+
+- Complete readme of StyleGAN-Ada (#391)
+
+#### Fix bugs and Improvements
+
+- Update limitation of MMCV's version (#397)
+- Add Circle CI (#431)
+- Update Chinese readme for `application.md` (#425)
+
+## v0.7.3 (14/04/2023)
+
+#### Fix bugs and Improvements
+
+- Fix SiLU activation (#447)
+- Support Perceptual Loss (#471)
+- Fix tensor and index aren't on the same device error (#476)

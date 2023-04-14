@@ -36,6 +36,20 @@
 
 [English](README.md) | 简体中文
 
+## 最新进展
+
+我们将MMGeneration合入了[MMEditing](https://github.com/open-mmlab/mmediting/tree/1.x)，并支持了新的生成任务和算法。请关注以下新特性：
+
+- 🌟 图文生成任务
+
+  - ✅ [GLIDE](https://github.com/open-mmlab/mmediting/tree/1.x/projects/glide/configs/README.md)
+  - ✅ [Disco-Diffusion](https://github.com/open-mmlab/mmediting/tree/1.x/configs/disco_diffusion/README.md)
+  - ✅ [Stable-Diffusion](https://github.com/open-mmlab/mmediting/tree/1.x/configs/stable_diffusion/README.md)
+
+- 🌟 3D生成任务
+
+  - ✅ [EG3D](https://github.com/open-mmlab/mmediting/tree/1.x/configs/eg3d/README.md)
+
 ## 简介
 
 MMGeneration 是一个基于 PyTorch 和[MMCV](https://github.com/open-mmlab/mmcv)的强有力的生成模型工具箱，尤其专注于 GAN 模型。
@@ -91,7 +105,7 @@ MMGeneration 是一个基于 PyTorch 和[MMCV](https://github.com/open-mmlab/mmc
 
 ## 更新日志
 
-v0.7.1 在 30/04/2022 发布。 关于细节和发布历史，请参考 [changelog.md](docs/zh_cn/changelog.md)。
+v0.7.3 在 14/04/2023 发布。 关于细节和发布历史，请参考 [changelog.md](docs/zh_cn/changelog.md)。
 
 ## 安装
 
@@ -118,7 +132,7 @@ mim install mmcv-full
 ```
 git clone https://github.com/open-mmlab/mmgeneration.git
 cd mmgeneration
-pip3 install -e .[all]
+pip3 install -e .
 ```
 
 更详细的安装指南请参考 [get_started.md](docs/zh/get_started.md) .
@@ -234,10 +248,10 @@ pip3 install -e .[all]
 
 ## 欢迎加入 OpenMMLab 社区
 
-扫描下方的二维码可关注 OpenMMLab 团队的 [知乎官方账号](https://www.zhihu.com/people/openmmlab)，加入 OpenMMLab 团队的 [官方交流 QQ 群](https://jq.qq.com/?_wv=1027&k=aCvMxdr3)
+扫描下方的二维码可关注 OpenMMLab 团队的 [知乎官方账号](https://www.zhihu.com/people/openmmlab)，加入 OpenMMLab 团队的 [官方交流 QQ 群](https://jq.qq.com/?_wv=1027&k=K0QI8ByU)
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/22982797/115827101-66874200-a43e-11eb-9abf-831094c27ef4.JPG" height="400" />  <img src="https://user-images.githubusercontent.com/22982797/115827162-7c950280-a43e-11eb-8270-2f2ce7e79f93.JPG" height="400" />
+<img src="https://user-images.githubusercontent.com/22982797/115827101-66874200-a43e-11eb-9abf-831094c27ef4.JPG" height="400" />  <img src="https://user-images.githubusercontent.com/25839884/203927852-e15def4d-a0eb-4dfc-9bfb-7cf09ea945d0.png" height="400" />
 </div>
 
 我们会在 OpenMMLab 社区为大家
